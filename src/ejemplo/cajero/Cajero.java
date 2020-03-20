@@ -37,8 +37,8 @@ public class Cajero {
 		saldoReducido = true;
 		
 		// crea unas cuentas, para la prueba
-		banco.agregarCuenta(new Cuenta("1", "clave", 1000));
-		banco.agregarCuenta(new Cuenta("2", "clave", 2000));
+		banco.agregarCuenta(new Cuenta("1", "clave", 1000000));
+		banco.agregarCuenta(new Cuenta("2", "clave", 20000));
 		banco.agregarCuenta(new Cuenta("3", "clave", 3000));
 		
 		// crea los comandos que se van a usar en la aplicación

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="showhiddenfeatures" value="true"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="ejemplocajeroautomatico">
+			<feature mandatory="true" name="Autenticacion"/>
+			<and mandatory="true" name="Menu">
+				<feature mandatory="true" name="Retiro"/>
+				<feature mandatory="true" name="Consulta"/>
+				<feature name="Transferir"/>
+				<feature name="Consignacion"/>
+			</and>
+			<feature name="Auditoria"/>
+			<feature name="saldoReducido"/>
+			<feature mandatory="true" name="listadoOperaciones"/>
+		</and>
+	</struct>
+</featureModel>
